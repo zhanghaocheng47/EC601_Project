@@ -23,6 +23,18 @@ Relationship: The generator and the discriminator are 2-player game in game theo
 
 
 ##2.Technology Selection and justification:
+
+
+Algorithm:
+
+
+
+
+Tools: torchvision,pytorch
+Dataset：MNIST     TFD      CIFAR-10
+
+##3.Little eaxmple:
+
   
 
 
