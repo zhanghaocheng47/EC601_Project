@@ -3,8 +3,8 @@
 Definition of architecture
 Technology Selection and justification
 Functional demonstration of major user story
-
-——————————————————————————————————————————GAN：Generator Adversrial Networks——————————————————————————————————————
+****
+GAN：Generator Adversrial Networks
 
 
 ##1. Definition of architecture:
