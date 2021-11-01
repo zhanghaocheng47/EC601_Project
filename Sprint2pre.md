@@ -47,7 +47,7 @@ after 10000training
 ![image](https://github.com/zhanghaocheng47/EC601_Project/blob/main/images/Figure_2.png)
 ****
 after 20000training
-![image]()
+![image](https://github.com/zhanghaocheng47/EC601_Project/blob/main/images/Figure_3.png)
   
 
 
