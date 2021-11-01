@@ -28,9 +28,7 @@ Relationship: The generator and the discriminator are 2-player game in game theo
 
 
 Algorithm:
-
-
-
+![image](https://github.com/zhanghaocheng47/EC601_Project/blob/main/images/341635780754_.pic_hd.jpg)
 
 Tools: torchvision,pytorch
 Dataset：MNIST     TFD      CIFAR-10
