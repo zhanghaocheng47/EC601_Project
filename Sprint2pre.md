@@ -38,6 +38,8 @@ Dataset：MNIST     TFD      CIFAR-10
 Image1 to Image2
 
 original:
+Which class in the module is 88.
+https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a
 ![image](https://github.com/zhanghaocheng47/EC601_Project/blob/main/images/Choose-Ground-Cover-Plants-Step-5.jpeg)
 ****
 after 1000training
