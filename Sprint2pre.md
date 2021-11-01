@@ -40,7 +40,7 @@ Image1 to Image2
 original:
 ![image](https://github.com/zhanghaocheng47/EC601_Project/blob/main/images/Choose-Ground-Cover-Plants-Step-5.jpeg)
 after:
-![image]()
+![image](https://github.com/zhanghaocheng47/EC601_Project/blob/main/images/Figure_1.png)
 
   
 
