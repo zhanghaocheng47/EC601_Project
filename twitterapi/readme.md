@@ -43,6 +43,3 @@ Due to API restrictions it can make only ~15 API calls per 15 minutes to retriev
  * `$ python -m SimpleHTTPServer 8080`
  * `Point your browser to http://127.0.0.1:8080/graph.html`
 
-Example_test
-=============
-![image](https://github.com/zhanghaocheng47/EC601_Project/blob/main/twitterapi/image/graph.png)
