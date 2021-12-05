@@ -57,12 +57,12 @@ class DCGAN_G(torch.nn.Module):
      # Size = n_colors x image_size x image_size
      self.main = main
 
-  def forward(self, input):
-     if isinstance(input.data, torch.cuda.FloatTensor) and param.n_gpu > 1:
-        output = torch.nn.parallel.data_parallel(self.main, input, range(param.n_gpu))
-     else:
-        output = self.main(input)
-     return output
+     def forward(self, input):
+        if isinstance(input.data, torch.cuda.FloatTensor) and param.n_gpu > 1:
+            output = torch.nn.parallel.data_parallel(self.main, input, range(param.n_gpu))
+        else:
+            output = self.main(input)
+        return output
      
 ![image](https://github.com/zhanghaocheng47/EC601_Project/blob/main/images/dcgan.png)
 
