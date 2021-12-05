@@ -1,14 +1,14 @@
-# EC601_Projectcoding analysing
-##DCGAN coding analysing:
+# EC601_Project coding analysing
+#DCGAN coding analysing:
 
-###1. we used a better plan as DCGAN(Deep Convolution Generative Adversarial Networks)    (referrence:https://arxiv.org/abs/1511.06434)
+#1. we used a better plan as DCGAN(Deep Convolution Generative Adversarial Networks)    (referrence:https://arxiv.org/abs/1511.06434)
 
 For advantages: 
 Gan’s result is indistinct(not good result)
 In case of this, we tried to use a optimiser, according to the DCGAN paper, there’s a Adam optimiser included.
 Besides, Gan’s process of training is not stable.
 
-###2. Difference or improvement from GAN module
+#2. Difference or improvement from GAN module
 
 After every time training,  batchnorm layer is put in to improve the stability
 Different activation functions selected between D and G module
@@ -16,8 +16,8 @@ The utilization of Adam optimiser and control the learning rate of 0.0002
 Use step-size convolution to replace the up-sampling layer. Convolution has a better effect on extracting image features
 Convolution is used instead of the fully connected layer.
 
-###3.generator:
-# DCGAN generator
+#3.generator:
+## DCGAN generator
 class DCGAN_G(torch.nn.Module):
   def __init__(self):
      super(DCGAN_G, self).__init__()
@@ -65,9 +65,9 @@ class DCGAN_G(torch.nn.Module):
 
 
 
-###4.discriminator
+#4.discriminator
 Cause the generator functions are all convTranspose2d, the discriminator should be in this case use conv2d.
 There is another difference that the discriminator should adapt the Tanh activation function.
 
-###5.training:
+#5.training:
 The training process are the same but we should do the batchnorm operant.
