@@ -63,7 +63,8 @@ class DCGAN_G(torch.nn.Module):
      else:
         output = self.main(input)
      return output
-
+     
+![image](https://github.com/zhanghaocheng47/EC601_Project/blob/main/images/dcgan.png)
 
 
 # 4.discriminator
