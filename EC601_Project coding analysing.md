@@ -19,10 +19,10 @@ Convolution is used instead of the fully connected layer.
 # 3.generator:
 DCGAN generator
 
-class DCGAN_G(torch.nn.Module):
-  def __init__(self):
-     super(DCGAN_G, self).__init__()
-     main = torch.nn.Sequential()
+     class DCGAN_G(torch.nn.Module):
+        def __init__(self):
+        super(DCGAN_G, self).__init__()
+        main = torch.nn.Sequential()
 
      # We need to know how many layers we will use at the beginning
      mult = param.image_size // 8
